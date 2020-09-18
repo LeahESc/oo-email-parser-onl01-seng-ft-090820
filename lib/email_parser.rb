@@ -10,7 +10,7 @@ class EmailAddressParser
   def initialize(email_addresses)
     @email_addresses = email_addresses
   end
-  binding.pry
+  # binding.pry
   
   def parse(email_addresses)
     @email_addresses= email_addresses
