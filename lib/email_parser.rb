@@ -10,5 +10,6 @@ class EmailAddressParser
   end
   
   def parse(email_string)
+    email_string.split[]
   
 end 
