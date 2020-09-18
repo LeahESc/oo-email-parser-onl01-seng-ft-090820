@@ -12,7 +12,7 @@ class EmailAddressParser
   end
   # binding.pry
   
-  def parse(email_addresses)
+  def parse
     email_array = email_addresses.split(/[\s,]/)
     email_array.reject {|email| email == ""}
     email_array.uniq!
