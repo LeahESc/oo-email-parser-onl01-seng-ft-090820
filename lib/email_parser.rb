@@ -15,6 +15,6 @@ class EmailAddressParser
   def parse
     email_array = email_addresses.split(/[\s,]/)
     email_array_2 = email_array.reject {|email| email == ""}
-    email_array_2.uniq!
+    email_arr = email_array_2.uniq!
   end
 end 
